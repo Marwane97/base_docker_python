@@ -1,0 +1,12 @@
+/.idea/
+/.env
+/data/
+/var/
+.gitignore kaldırılacak
+.gitlab/ kaldırılacak
+README.md kaldırılacak
+docker-compose.yml kaldırılacak
+docker/ kaldırılacak
+docs/ kaldırılacak
+src/ kaldırılacak
+tests/ kaldırılacak

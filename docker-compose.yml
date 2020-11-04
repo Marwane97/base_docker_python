@@ -1,0 +1,14 @@
+version: "3.1"
+
+services:
+  python:
+    container_name: my-python
+    build:
+      context: .
+      dockerfile: docker/python/Dockerfile
+    working_dir: /application
+    restart: on-failure
+    volumes:
+      - ~/.ssh/:/root/.ssh/
+      - .:/application:cached
+
